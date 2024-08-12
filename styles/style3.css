@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: "Gupter", serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.NavImg {
+    max-width: 4rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.contact-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-check {
+    margin-bottom: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.contact-info .social-links a {
+    margin-right: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info .social-links a:hover {
+    color: #0056b3;
+}

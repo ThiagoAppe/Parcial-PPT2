@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Gupter", serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.NavImg {
+    max-width: 4rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+#Menu {
+    margin-top: 20px;
+}
+
+#Menu h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.card img {
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ol li {
+    list-style-type: decimal;
+}
