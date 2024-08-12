@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Gupter", serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.NavImg {
+    max-width: 4rem;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.carousel {
+    display: flex;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    align-items: center;
+}
+
+.panel {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: flex 0.3s ease;
+    position: relative;
+}
+
+.panel h2 {
+    text-align: center;
+    font-size: 3em;
+    z-index: 1;
+}
+
+.panel p {
+    opacity: 0;
+    visibility: hidden;
+    font-size: 1em;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+.historia:hover, .filosofia:hover {
+    flex: 3;
+}
+
+.panel:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.panel:hover h2 {
+    margin-bottom: 20px;
+}
+
+.ContFot {
+    display: flex;
+    max-height: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: #28a745;
+}
+
+.AcomodarPresentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.AcomodarPresentacionIMG {
+    max-width: 60%;
+    padding: 1rem;
+}
+
+.Mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    height: 60vh;
+}
+
+.map-iframe {
+    width: 60%;
+    height: 100%;
+}
+
+.VideoControl, .VideoControlYT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.VideoControl .local-video-iframe, .VideoControlYT .youtube-iframe {
+    width: 60%;
+    height: 100%;
+}
+
+.VideoControl video, .VideoControlYT iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.AudioControl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Area de MENU*/
+
+#Menu h1{
+    text-align: center;
+}

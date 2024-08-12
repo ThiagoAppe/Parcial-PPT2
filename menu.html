@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter&display=swap" rel="stylesheet">
+    <title>Menu | Starbucks</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid NavImg" src="./Assets/logo-starbucks.webp" alt="Logo de Starbucks">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fs-2">
+                    <a class="nav-link text-light" href="./index.html">Home</a>
+                    <a class="nav-link active text-secondary-emphasis disabled" aria-current="page" href="#">Menu</a>
+                    <a class="nav-link text-light" href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main id="Menu" class="container mt-5">
+        <h1 class="text-center mb-4">Menu</h1>
+
+        <!-- Categorías de Menú -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h2>Bebidas Frías</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Plato</th>
+                            <th>Descripción</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Caramel Frappuccino</td>
+                            <td><span>Bebida a base de café, hielo, leche y sirope de caramelo.</span></td>
+                            <td>$5.50</td>
+                        </tr>
+                        <tr>
+                            <td>Cold Brew</td>
+                            <td><span>Café infusionado en frío, suave y con un sabor intenso.</span></td>
+                            <td>$4.50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>Bebidas Calientes</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Plato</th>
+                            <th>Descripción</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Latte</td>
+                            <td><span>Café espresso combinado con leche al vapor y una capa ligera de espuma.</span></td>
+                            <td>$4.00</td>
+                        </tr>
+                        <tr>
+                            <td>Cappuccino</td>
+                            <td><span>Mezcla perfecta de espresso, leche caliente y espuma cremosa.</span></td>
+                            <td>$4.50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Imágenes destacadas -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img src="./Assets/2022-03_Caramel Frapp 425x425 sin fondo (1).png" class="img-fluid" alt="Caramel Frappuccino">
+                <p class="text-center">Caramel Frappuccino</p>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/2022-03_Cold Brew Black 425x425 sin fondo.png" class="img-fluid" alt="Cold Brew">
+                <p class="text-center">Cold Brew</p>
+            </div>
+            <div class="col-md-4">
+                <img src="./Assets/2022-02_Latte 425x425 verde_1.png" class="img-fluid" alt="Latte">
+                <p class="text-center">Latte</p>
+            </div>
+        </div>
+
+        <!-- Listas ordenadas y sin ordenar -->
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Ingredientes Principales</h2>
+                <ul>
+                    <li>Café</li>
+                    <li>Leche</li>
+                    <li>Hielo</li>
+                    <li>Caramelo</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Beneficios</h2>
+                <ol>
+                    <li>Productos de alta calidad</li>
+                    <li>Amplia variedad de opciones</li>
+                    <li>Ambiente acogedor</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-success ContFot mt-5 py-3 ">
+        <div class="container text-center ContFot">
+            <a href="https://www.instagram.com/starbucksargentina/?hl=es">
+                <img src="./Assets/InstagramLogo.svg" alt="Logo de Instagram" width="30" height="30">
+            </a>
+            <p class="mt-2 mb-0 gupter-regular">Thiago Obregon</p>
+        </div>
+    </footer>
+</body>
+
+</html>
