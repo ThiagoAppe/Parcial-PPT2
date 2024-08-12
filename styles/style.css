@@ -111,7 +111,7 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
 }
 
 .VideoControl .local-video-iframe, .VideoControlYT .youtube-iframe {
@@ -121,7 +121,7 @@ h1, h2, h3 {
 
 .VideoControl video, .VideoControlYT iframe {
     width: 100%;
-    height: 100%;
+    height: 60%;
     object-fit: cover;
 }
 
